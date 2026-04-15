@@ -13,8 +13,43 @@
         <h2 class="text-center mb-4 text-danger">PERFIL GAMER</h2>
 
         <div class="row g-3 d-flex justify-content-center">
-            <div class="col-12 col-md-5 p-3 bg-dark text-white rounded m-1"></div>
-            <div class="col-12 col-md-5 p-3 bg-dark text-white rounded m-1"></div>
+            <div class="col-12 col-md-5 p-3 bg-dark text-white rounded m-1">
+                <label for="ncik">Nick Gamer</label>
+                <input type="text" class="form-control mb-3" name="nick" id="nick">
+
+                <label for="juegi">Juego Favorito</label>
+                <input type="text" class="form-control mb-3" name="juego" id="juego">
+
+                <label for="plataforma">Plataforma</label>
+                <select class="form-control mb-3" name="plataforma" id="plataforma">
+                    <option value="pc" selected>PC</option>
+                    <option value="notebook">Notebook</option>
+                    <option value="consola">Consola</option>
+                    <option value="celular">Celular</option>
+                    <option value="tablet">Tablet</option>
+                    <option value="switch">Nintendo Switch</option>
+                    <option value="otra">Otra</option>
+                </select>
+
+                <label for="edad">Edad</label>
+                <input type="text" class="form-control mb-3" name="edad" id="edad">
+            </div>
+
+            <div class="col-12 col-md-5 p-3 bg-dark text-white rounded m-1">
+                <label for="horas">Horas de juego por semana</label>
+                <input type="text" class="form-control mb-3" name="horas" id="horas">
+
+                <label for="descripcion">Descripción Gamer</label>
+                <textarea class="form-control mb-3" name="descripcion" id="descripcion"></textarea>
+
+                <label for="perfil">Foto de Perfil</label>
+                <input type="file" class="form-control mb-3" name="" id="">
+
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="competitivo" id="competitivo">
+                    <label for="competitivo" class="form-check-label">Jugador competitivo</label>
+                </div>
+            </div>
         </div>
     </div>
 
